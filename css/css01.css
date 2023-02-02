@@ -1,0 +1,56 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-image: url("../img/hpbd.jpg");
+}
+
+.container {
+  height: calc(100% - 88px);
+}
+
+.bond {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.img-card {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  opacity: 0.8;
+}
+
+.audio-card {
+  margin-top: 6px;
+  opacity: 0.3;
+  width: 100%;
+}
+
+.footer {
+  font-size: 20px;
+  background-color: darkblue;
+  color: skyblue;
+  padding: 30px 0;
+  opacity: 0.5;
+}
+
+.modal-dialog {
+  margin-top: 60px;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-footer {
+  color: rgb(255, 0, 149);
+}
+
+embed {
+  opacity: 0;
+  z-index: -1;
+}
